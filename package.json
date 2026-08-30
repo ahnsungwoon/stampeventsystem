@@ -1,0 +1,22 @@
+{
+  "name": "stamp-event",
+  "version": "1.0.0",
+  "description": "학교 행사용 QR 스탬프 투어 시스템",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "node scripts/seed.js",
+    "init-db": "node scripts/init-db.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "html5-qrcode": "^2.3.8",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.22.5",
+    "next": "^14.2.0",
+    "qrcode": "^1.5.3",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  }
+}
